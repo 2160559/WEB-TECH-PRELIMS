@@ -8,7 +8,12 @@
 /* Banner */
 
 #banner {
-    
+    background-attachment: fixed;
+    background-image: url("../pictures/Banner.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    height: 1000px;
 }
 
 #solid_black {
@@ -16,8 +21,22 @@
     background-color: black;
 }
 
-#img_banner {
-    width: 100%;
+#banner_text {
+    margin-top: 15%;
+    max-width: 80%;
+    margin-left: 10%;
+    background: rgba(0,0,0,0.8);
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#b_text {
+    width: 80%;;
+    margin-left: 10%;
+    margin-top: 1%;
+    position: relative;
+    
 }
 
 /* Nav */
