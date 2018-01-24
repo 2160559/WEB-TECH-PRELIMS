@@ -81,11 +81,29 @@ li a:hover {
     background-color: #dee0e2;
 }
 
+#sub_min_1 {
+    max-width: 1000px;
+    height: 350px;
+    background: rgba(0,0,0,0.3);
+    margin-left: 13%;
+    margin-right: 2.5%;
+    margin-top: 90px;
+}
+
 #min_2 {
     width: 50%;
     float: left;
     height: 500px;
     background-color: #bdbfc1;
+}
+
+#sub_min_2 {
+    max-width: 1000px;
+    height: 350px;
+    background: rgba(0,0,0,0.3);
+    margin-right: 13%;
+    margin-left: 2.5%;
+    margin-top: 90px;
 }
 
 #clear {
