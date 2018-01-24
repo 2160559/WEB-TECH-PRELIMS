@@ -21,6 +21,7 @@
 }
 
 /* Nav */
+
 #logo_container {
     width: 60%;
     float: left;
@@ -65,4 +66,45 @@ li {
 li a:hover {
     background-color: white;
     color: black;
+}
+
+/* Contents */
+
+#content {
+    
+}
+
+#min_1 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: #dee0e2;
+}
+
+#min_2 {
+    width: 50%;
+    float: left;
+    height: 500px;
+    background-color: #bdbfc1;
+}
+
+#clear {
+    clear: both;
+}
+
+#big_1 {
+    height: 900px;
+    background-color: #98999b;
+}
+
+#big_2 {
+    height: 900px;
+    background-color: #7a7b7c;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    height: 80px;
 }
