@@ -37,4 +37,25 @@ li a:visited {
     color: white;
 }
 
+li a:hover {
+    background-color: #111;
+}
+
 /* End menu */
+
+/* Body */
+#intro_1 {
+    background-color: #9ce2bf;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+#intro_2 {
+    background-color: #bada55;
+    width: 50%;
+    height: 200px;
+    float: left;
+}
+
+/* End body */
