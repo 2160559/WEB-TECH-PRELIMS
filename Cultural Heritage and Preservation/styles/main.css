@@ -2,7 +2,6 @@ body, html {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-size: 16px;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.8em;
@@ -27,7 +26,7 @@ body, html {
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-weight: 500;
@@ -68,9 +67,11 @@ li {
 li a {
     display: block;
     color: white;
+    font-size: 16px;
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 li a:hover {
@@ -79,18 +80,23 @@ li a:hover {
 }
 
 /* Contents */
+#section_1 {
+    width: 100%;
+    overflow: auto;
+    text-align: justify;
+    background-color: #dcdee2;
+}
+
 #sub_content_1 {
     float: left;
     width: 50%;
     background-color: #dcdee2;
-    height: 100%;
 }
 
 #sub_content_2 {
     float: left;
     width: 50%;
     background-color: #bbbdc1;
-    height: 100%;
 }
 
 #clear {
@@ -101,16 +107,20 @@ li a:hover {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+    font-size: 18px;
+}
+
+.content h1,h3 {
+    text-transform: uppercase;
 }
 
 #section_2 {
     padding-top: 20px;
-    margin-top: -20px;
     background-color: #a0a2a5;
     padding-bottom: 30px;
 }
 
-#section_pic {
+#section_pic_1 {
     margin-top: -20px;
     position: relative;
     background-position: center;
@@ -118,11 +128,40 @@ li a:hover {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url(../pictures/img_1.png);
-    min-height: 400px;
+    min-height: 800px;
+    padding-top: 5%;
 }
+
+#sub_content_pic_1 {
+    width: 60%;
+    height: 700px;
+    background-color: black;
+    margin-left: 5%;
+}
+
+
+
+
+
 
 /* Footer */
 footer {
     height: 80px;
     background-color: black;
+}
+
+
+
+#p_img_1 {
+    height: 240px;
+    width: 280px;
+    float: right;
+    margin-left: 25px;
+}
+
+#p_img_2 {
+    float: right;
+    margin-left: 25px;
+    height: 300px;
+    width: 270px;
 }
