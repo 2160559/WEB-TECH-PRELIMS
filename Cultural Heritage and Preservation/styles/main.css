@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: "Lato", sans-serif;
+    font-family: arial, sans-serif;
     font-weight: 400;
     line-height: 1.8em;
     color: black;
@@ -107,7 +107,13 @@ li a:hover {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .content h1,h3 {
@@ -115,9 +121,14 @@ li a:hover {
 }
 
 #section_2 {
-    padding-top: 20px;
+    padding-top: 40px;
     background-color: #a0a2a5;
     padding-bottom: 30px;
+}
+
+#section_2 article {
+    font-size: 60px;
+    font-weight: 800;
 }
 
 #section_pic_1 {
@@ -139,22 +150,9 @@ li a:hover {
     margin-left: 5%;
 }
 
-
-
-
-
-
-/* Footer */
-footer {
-    height: 80px;
-    background-color: black;
-}
-
-
-
 #p_img_1 {
-    height: 240px;
-    width: 280px;
+    height: 120px;
+    width: 170px;
     float: right;
     margin-left: 25px;
 }
@@ -162,6 +160,75 @@ footer {
 #p_img_2 {
     float: right;
     margin-left: 25px;
-    height: 300px;
-    width: 270px;
+    height: 120px;
+    width: 140px;
+}
+
+#p_img_3 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#section_2 p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.read_more {
+    margin-top: 15px;
+    float: right;
+    margin-bottom: 25px;
+    padding: 2px 20px 2px 20px; 
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+#link_1:hover, #link_2:hover {
+    background-color: black;
+    color: white;
+}
+
+#link_1 {
+    background-color: #a0a2a5;
+}
+
+#link_2 {
+    background-color: #dcdee2;
+}
+
+.content a:visited {
+    color: black;
+}
+
+img {
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#section_3 {
+    padding-top: 40px;
+    background-color: #898a8d;
+    padding-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    height: 80px;
+    background-color: black;
+}
+
+/* Events */
+
+/* Contact */
+
+/* About Us */
+#about_1 {
+    background-color: #dcdee2;
+}
+
+#about_2 {
+    background-color: 
 }
