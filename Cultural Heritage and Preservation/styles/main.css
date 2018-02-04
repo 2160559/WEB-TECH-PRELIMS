@@ -8,7 +8,7 @@ body, html {
     color: black;
 }
 
-/* Banner */
+/*  ------------------Banner------------------ */
 
 #banner {
     position: relative;
@@ -16,8 +16,9 @@ body, html {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url(../pictures/2baw1080.png);
+    background-image: url(../pictures/2c1080.png);
     min-height: 100%;
+    opacity: 0.7;
 }
 
 #banner_text {
@@ -40,16 +41,20 @@ body, html {
     background-color: black;
 }
 
-/* Main menu */
+/*  ------------------Banner------------------ */
+
+
+
+/*  ------------------Main Nav------------------ */
+
 #nav_container {
-    background-color: black;
+    background-color: #282e34;
     width: 100%;
     height: 56px;;
 }
 
 ul {
     margin-top: -17px;
-    margin-left: 65%;
 }
 
 li {
@@ -57,7 +62,7 @@ li {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+    background-color: #282e34;
 }
 
 li {
@@ -79,156 +84,356 @@ li a:hover {
     color: black;
 }
 
-/* Contents */
-#section_1 {
+/*  ------------------Main Nav------------------ */
+
+
+
+/*  ------------------Contents------------------ */
+
+#img_caption {
+    width: 100%;
+    text-align: right;
+}
+
+/* Section 1 */
+#home_section_1 {
     width: 100%;
     overflow: auto;
     text-align: justify;
-    background-color: #dcdee2;
+    background-color: #ffffff;
 }
 
-#sub_content_1 {
+#home_sub_content_1 {
     float: left;
     width: 50%;
-    background-color: #dcdee2;
+    background-color: #ffffff;
 }
 
-#sub_content_2 {
+#home_sub_content_2 {
     float: left;
     width: 50%;
-    background-color: #bbbdc1;
+    background-color: #454343;
+    color: #ffffff;
 }
 
-#clear {
-    clear: both;
-}
-
-.content {
+.hs_1_content {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
     font-size: 14px;
     font-weight: 500;
 }
+/* Section 1 */
 
-.content p{
+/* Section 2 */
+#home_section_2 {
+    width: 100%;
+    background-color: #282e34;
+    color: #ffffff;
+}
+
+.hs_2_content {
     margin-left: 5%;
     margin-right: 5%;
+    padding-top: 1%;
+    text-align: justify;
 }
 
-.content h1,h3 {
-    text-transform: uppercase;
+#home_img_1 {
+    width: 100%;
 }
 
-#section_2 {
-    padding-top: 40px;
-    background-color: #a0a2a5;
-    padding-bottom: 30px;
+#home_section_2 p {
+    padding-bottom: 2%;
 }
+/* Section 2 */
 
-#section_2 article {
-    font-size: 60px;
-    font-weight: 800;
-}
-
-#section_pic_1 {
-    margin-top: -20px;
+/* Section 3 */
+#home_section_3 {
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-image: url(../pictures/img_1.png);
-    min-height: 800px;
     padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.7;
 }
 
-#sub_content_pic_1 {
-    width: 60%;
-    height: 700px;
+#home_quote_1 {
+    font-size: 30px;
+    width: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 45px;
+    margin-left: 8%;
+    line-height: 50px;
+}
+
+#span_left {
+    float: right;
+    padding-bottom: 10px;
+}
+/* Section 3 */
+
+/* Section 4 */
+#home_section_4 {
+    background-color: #ffffff;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+#home_img_2 {
+    width: 49%;
+    float: right;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#clear {
+    clear: both;
+}
+/* Section 4 */
+
+/* Section 5 */ 
+#home_section_5 {
+    margin-top: -20px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../pictures/img_3.jpeg);
+    padding-top: 5%;
+    opacity: 0.7;
+    padding-bottom: 4%;
+}
+
+.hs_5_content {
+    padding: 5%;
     background-color: black;
+    width: 60%;
+    margin-left: 17.5%;
+    color: #ffffff;
+}
+/* Section 5 */
+
+/* Section 6 */
+#home_section_6 {
+    background-color: #282e34;
+    color: white;
+    padding-bottom: 2%;
+}
+/* Section 6 */
+
+/*  ------------------Contents------------------ */
+
+
+
+/*  ------------------About Us------------------ */
+
+.as_1_content {
+    width: 100%;
+    text-align: justify;
+}
+
+/* Section 1 */
+#about_section_1 {
+    width: 90%;
+    padding: 5%;
+    
+}
+/* Section 1 */
+
+/* Section 2 */
+#about_section_2 {
+    width: 90%;
+    padding: 5%;
+    background-color: #454343;
+    color: white;
+}
+
+#about_img_1 {
+    width: 100%;
+}
+/* Section 2 */
+
+/* Section 3 */
+#about_section_3 {
+    padding: 5%;
+    background-color: #282e34;
+}
+
+#as_2_content {
+    color: white;
+}
+
+#as_2_content h4 {
+    width: 32.5%;
+    background-color: black;;
+    color: white;
+    text-align: center;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.h4_left {
+    margin-left: 1.25%;
+}
+
+#about_img_2 {
+    width: 100%;
+}
+/* Section 3 */
+
+/* Section 4 */
+#about_section_4 {
+    padding-bottom: 4%;
+}
+
+#as_3_content {
+    text-align: justify;
     margin-left: 5%;
+    margin-right: 5%;
+}
+/* Section 4 */
+
+/*  ------------------About Us------------------ */
+
+
+
+/*  ------------------Contact------------------ */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
 
-#p_img_1 {
-    height: 120px;
-    width: 170px;
-    float: right;
-    margin-left: 25px;
+input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
-#p_img_2 {
-    float: right;
-    margin-left: 25px;
-    height: 120px;
-    width: 140px;
+input[type=submit]:hover {
+    background-color: #646464;
 }
 
-#p_img_3 {
-    width: 80%;
-    margin-left: 10%;
+#form_container {
+    background-color: #282e34;
+    width: 60%;
+    padding: 5%;
+    margin-left: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
 }
 
-#section_2 p {
-    font-size: 18px;
-    font-weight: 100;
+#form_container  h1 {
+    color: white;
 }
 
-.read_more {
-    margin-top: 15px;
-    float: right;
-    margin-bottom: 25px;
-    padding: 2px 20px 2px 20px; 
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-    font-weight: 600;
+#main_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
-#link_1:hover, #link_2:hover {
+/*  ------------------San Vicente------------------ */
+
+/* Section 1 */
+#sv_section_1 {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    text-align: justify;
+}
+/* Section 1 */
+
+/* Section 2 */
+#sv_section_2 {
+    margin-top: -20px;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(../pictures/img_3.jpeg);
+    padding-top: 5%;
+    padding-bottom: 4%;
+   
+}
+
+#sv_1_content {
+    width: 65%;
+    margin-left: 15%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    background-color: #454343;
+}
+
+.img_top {
+    float: left;
+    width: 27.3%;
+    margin: 3%;
+}
+
+.img_bot {
+    float: left;
+    width: 40%;
+    margin: 0 3%;
+}
+
+#img_bot_last {
+    margin-left: 11%;
+}
+/* Section 2 */
+
+/* Section 3 */
+#sv_section_3 {
+    width: 90%;
+    background-color: #282e34;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    text-align: justify;
+    color: white;
+    padding-bottom: 3%;
+}
+
+#sv_img_1 {
+    width: 50%;
+    margin-left: 25%;
+}
+/* Section 3 */
+
+/*  ------------------San Vicente------------------ */
+
+
+/*  ------------------Footer------------------ */
+
+footer {
+    height: 80px;
     background-color: black;
     color: white;
 }
 
-#link_1 {
-    background-color: #a0a2a5;
+#footer_text {
+    text-align: center;
+    padding: 1%;
 }
 
-#link_2 {
-    background-color: #dcdee2;
-}
+/*  ------------------Footer------------------ */
 
-.content a:visited {
-    color: black;
-}
-
-img {
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px;
-}
-
-#section_3 {
-    padding-top: 40px;
-    background-color: #898a8d;
-    padding-bottom: 30px;
-}
-
-/* Footer */
-footer {
-    height: 80px;
-    background-color: black;
-}
-
-/* Events */
-
-/* Contact */
-
-/* About Us */
-#about_1 {
-    background-color: #dcdee2;
-}
-
-#about_2 {
-    background-color: 
-}
