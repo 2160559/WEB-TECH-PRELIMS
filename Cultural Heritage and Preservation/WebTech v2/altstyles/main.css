@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: arial, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: black;
+}
+
+body {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*  ------------------Banner------------------ */
+
+#banner {
+    background-image: url(../pictures/2c1080.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40%;
+    padding-top: 3%;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border-radius: 200px;
+    -khtml-border-radius: 200px;
+}
+
+#banner_text {
+    width: 50%;
+    margin-left: 22%;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.box {
+    padding: 3%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
