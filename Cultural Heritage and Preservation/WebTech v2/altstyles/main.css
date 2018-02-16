@@ -21,17 +21,20 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 40%;
-    padding-top: 3%;
+    height: 30%;
+    padding-top: 8%;
+    padding-bottom: 8%;
     -moz-border-radius: 200px;
     -webkit-border-radius: 200px;
     border-radius: 200px;
     -khtml-border-radius: 200px;
+    border: 3px #547a82 solid;
+    margin-top: 3%;
 }
 
 #banner_text {
     width: 50%;
-    margin-left: 22%;
+    margin-left: 25%;
     font-size: 25px;
     text-align: center;
     text-transform: uppercase;
@@ -40,10 +43,588 @@ body {
 .box {
     padding: 3%;
     margin-top: 1%;
-    background-color: black;
+    background-color: #5a5050;
     color: white;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
     -khtml-border-radius: 100px;
+    border: 2px #3eacab solid;
 }
+
+/*  ------------------Banner------------------ */
+
+
+
+/*  ------------------Main Nav------------------ */
+
+#nav_container {
+    width: 100%;
+    height: 56px;
+}
+
+ul {
+    margin-top: 2%;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #7fafb9;
+    margin-right: 2%;
+    float: left;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+}
+
+li a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 14px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+li a:hover {
+    background-color: #547a82;
+}
+    
+/*  ------------------Main Nav------------------ */
+
+#img_caption {
+    width: 100%;
+    text-align: right;
+}
+
+#img_caption a {
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    padding: 1%;
+    color: white;
+    border: 1px #5a5050 solid;
+}
+
+#img_caption a:visited {
+    color: white;
+}
+
+#img_caption a:hover {
+    background-color: white;
+    color: black;
+    padding: 1%;
+}
+
+/* Section 1 */
+#home_section_1 {
+    width: 100%;
+    overflow: auto;
+    text-align: justify;
+    margin-top: 3%;
+}
+
+#home_sub_content_1 {
+    float: left;
+    width: 44.5%;
+    background-color: #e5eec1;
+    padding: 2%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+}
+
+#home_sub_content_2 {
+    float: left;
+    width: 44.5%;
+    background-color: #a2d4ab;
+    padding: 2%;
+    color: #ffffff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+    margin-left: 2%;
+}
+/* Section 1 */
+
+
+/* Section 2 */
+#home_section_2 {
+    width: 100%;
+    background-color: #3eaca8;
+    color: #ffffff;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+.hs_2_content {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 1%;
+    text-align: justify;
+}
+
+#home_img_1 {
+    width: 100%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+
+#home_section_2 p {
+    padding-bottom: 2%;
+}
+/* Section 2 */
+
+/* Section 3 */
+#home_section_3 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../pictures/img_1.png);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.7;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#home_quote_1 {
+    font-size: 30px;
+    width: 50%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 45px;
+    margin-left: 8%;
+    line-height: 50px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 5px #5a5050 solid;
+}
+
+#span_left {
+    float: right;
+    padding-bottom: 10px;
+}
+/* Section 3 */
+
+/* Section 4 */
+#home_section_4 {
+    width: 100%;
+    padding-bottom: 2%;
+    background-color: #e5eec1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+    margin-top: 2%;
+}
+
+#home_img_2 {
+    width: 49%;
+    float: right;
+    margin-left: 2%;
+    margin-top: 1%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+
+#clear {
+    clear: both;
+}
+/* Section 4 */
+
+/* Section 5 */ 
+#home_section_5 {
+    margin-top: 2%;;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../pictures/img_3.jpeg);
+    padding-top: 5%;
+    opacity: 0.7;
+    padding-bottom: 4%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+}
+
+.hs_5_content {
+    padding: 5%;
+    background-color: black;
+    width: 60%;
+    margin-left: 17.5%;
+    color: #ffffff;
+    border: 5px #5a5050 solid;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+/* Section 5 */
+
+/* Section 6 */
+#home_section_6 {
+    background-color: #a2d4ab;
+    color: white;
+    padding-bottom: 2%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+    margin-top: 2%;
+}
+/* Section 6 */
+
+/*  ------------------Contents------------------ */
+
+
+
+/*  ------------------About Us------------------ */
+
+.as_1_content {
+    width: 100%;
+    text-align: justify;
+}
+
+/* Section 1 */
+#about_section_1 {
+    width: 90%;
+    padding: 5%;
+    background-color: #e5eec1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+/* Section 1 */
+
+/* Section 2 */
+#about_section_2 {
+    width: 90%;
+    padding: 5%;
+    background-color: #454343;
+    color: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#about_img_1 {
+    width: 100%;
+}
+/* Section 2 */
+
+/* Section 3 */
+#about_section_3 {
+    padding: 5%;
+    background-color: #a2d4ab;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#as_2_content {
+    color: white;
+}
+
+#as_2_content h4 {
+    width: 32.5%;
+    background-color: #3eaca8;;
+    color: white;
+    text-align: center;
+    float: left;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+
+.h4_left {
+    margin-left: 1.25%;
+}
+
+#about_img_2 {
+    width: 100%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+/* Section 3 */
+
+/* Section 4 */
+#about_section_4 {
+    color: white;
+    background-color: #3eaca8;
+    padding-bottom: 4%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#about_section_4 a {
+    color: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    padding: 0.2%;
+    border: 1px #5a5050 solid;
+}
+
+#about_section_4 a:visited {
+    color: white;
+}
+
+#about_section_4 a:hover {
+    padding: 0.2%;
+    background-color: white;
+    color: black;
+}
+
+#as_3_content {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* Section 4 */
+
+/*  ------------------About Us------------------ */
+
+
+
+/*  ------------------Contact------------------ */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #454343;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #646464;
+}
+
+#form_container {
+    background-color: #3eaca8;
+    width: 60%;
+    padding: 5%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#form_container  h1 {
+    color: white;
+}
+
+#main_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+#contact_section_1 {
+    height: 90%;
+    padding-top: 8%;
+    background-image: url(../pictures/1c1080b.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+/*  ------------------Contact------------------ */
+
+
+
+/*  ------------------San Vicente------------------ */
+
+/* Section 1 */
+#sv_section_1 {
+    padding: 3%;
+    padding-top: 1%;
+    text-align: justify;
+    background-color: #e5eec1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+/* Section 1 */
+
+/* Section 2 */
+#sv_section_2 {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../pictures/img_3.1.jpeg);
+    padding-top: 5%;
+    padding-bottom: 4%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#sv_1_content {
+    width: 65%;
+    margin-left: 13.5%;
+    background-color: black;
+    color: white;
+    padding: 5%;
+    background-color: #454343;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 5px #5a5050 solid;
+}
+
+.img_top {
+    float: left;
+    width: 27.3%;
+    margin: 3%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+
+.img_bot {
+    float: left;
+    width: 40%;
+    margin: 0 3%;
+    margin-bottom: 2%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+}
+
+#img_bot_last {
+    margin-left: 11%;
+}
+/* Section 2 */
+
+/* Section 3 */
+#sv_section_3 {
+    width: 90%;
+    background-color: #a2d4ab;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    text-align: justify;
+    color: white;
+    padding-bottom: 3%;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    margin-top: 2%;
+    border: 1px #5a5050 solid;
+}
+
+#sv_img_1 {
+    width: 50%;
+    margin-left: 25%;
+}
+/* Section 3 */
+
+/*  ------------------San Vicente------------------ */
+
+
+
+/*  ------------------Footer------------------ */
+
+footer {
+    height: 80px;
+    background-color: #547a82;
+    color: white;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    -khtml-border-radius: 100px;
+    border: 1px #5a5050 solid;
+    margin-top: 2%;
+}
+
+#footer_text {
+    text-align: center;
+    padding: 2%;
+}
+
+/*  ------------------Footer------------------ */
