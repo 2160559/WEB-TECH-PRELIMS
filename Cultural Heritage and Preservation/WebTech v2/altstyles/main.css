@@ -14,6 +14,24 @@ body {
     padding-right: 10%;
 }
 
+::-webkit-scrollbar {
+    width: 25px;
+    
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+    background: #3eaca8;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
 /*  ------------------Banner------------------ */
 
 #banner {
@@ -50,6 +68,81 @@ body {
     border-radius: 100px;
     -khtml-border-radius: 100px;
     border: 2px #3eacab solid;
+}
+
+#text_1 {
+    animation: colorchange 10s infinite;
+    -webkit-animation: colorchange 10s infinite;
+}
+
+@keyframes colorchange {
+    0%   {background: #e5eec1;}
+    50%  {background: #7fafb9;}
+    100% {background: #7fafb9;}
+    
+    0%   {color: #000000;}
+    50%  {color: #ffffff;}
+    100% {color: #ffffff;}
+}
+
+@-webkit-keyframes colorchange {
+    0%   {background: #e5eec1;}
+    50%  {background: #7fafb9;}
+    100% {background: #7fafb9;}
+    
+    0%   {color: #000000;}
+    50%  {color: #ffffff;}
+    100% {color: #ffffff;}
+}
+
+#text_2 {
+    animation: colorchange_2 10s infinite;
+    -webkit-animation: colorchange_2 10s infinite;
+}
+
+@keyframes colorchange_2 {
+    0%   {background: #7fafb9;}
+    50%  {background: #e5eec1;}
+    100% {background: #7fafb9;}
+    
+    0%   {color: #ffffff;}
+    50%  {color: #000000;}
+    100% {color: #ffffff;}
+}
+
+@-webkit-keyframes colorchange_2 {
+    0%   {background: #7fafb9;}
+    50%  {background: #e5eec1;}
+    100% {background: #7fafb9;}
+    
+    0%   {color: #ffffff;}
+    50%  {color: #000000;}
+    100% {color: #ffffff;}
+}
+
+#text_3 {
+    animation: colorchange_3 10s infinite;
+    -webkit-animation: colorchange_3 10s infinite;
+}
+
+@keyframes colorchange_3 {
+    0%   {background: #7fafb9;}
+    50%  {background: #7fafb9;}
+    100% {background: #e5eec1;}
+    
+    0%   {color: #ffffff;}
+    50%  {color: #ffffff;}
+    100% {color: #000000;}
+}
+
+@keyframes colorchange_3 {
+    0%   {background: #7fafb9;}
+    50%  {background: #7fafb9;}
+    100% {background: #e5eec1;}
+    
+    0%   {color: #ffffff;}
+    50%  {color: #ffffff;}
+    100% {color: #000000;}
 }
 
 /*  ------------------Banner------------------ */
