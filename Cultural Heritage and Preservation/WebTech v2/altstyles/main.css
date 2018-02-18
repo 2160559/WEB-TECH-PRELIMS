@@ -3,7 +3,7 @@ body, html {
     margin: 0px;
     padding: 0px;
     font-family: arial, sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 1.8em;
     color: black;
 }
@@ -41,12 +41,19 @@ h3 {
     font-family: bubble;
 }
 
-
+p {
+    font-family: bubble_2;
+}
 /*  ------------------Fonts------------------ */
 
 @font-face {
     font-family: 'bubble';
     src: url(bubble.ttf);
+}
+
+@font-face {
+    font-family: 'bubble_2';
+    src: url(bubble_2.ttf);
 }
 
 @font-face {
@@ -109,6 +116,7 @@ h3 {
 
 @keyframes colorchange {
     0%   {background: #e5eec1;}
+    25%  {background: #e5eec1;}
     50%  {background: #7fafb9;}
     100% {background: #7fafb9;}
     
@@ -119,6 +127,7 @@ h3 {
 
 @-webkit-keyframes colorchange {
     0%   {background: #e5eec1;}
+    25%  {background: #e5eec1;}
     50%  {background: #7fafb9;}
     100% {background: #7fafb9;}
     
@@ -211,6 +220,7 @@ li a {
     display: block;
     color: white;
     font-size: 16px;
+    font-family: bubble;
     text-align: center;
     padding: 14px 25px;
     text-decoration: none;
@@ -444,7 +454,7 @@ li a:hover {
 /* Section 1 */
 #about_section_1 {
     width: 90%;
-    padding: 5%;
+    padding: 4%;
     background-color: #e5eec1;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -458,7 +468,7 @@ li a:hover {
 /* Section 2 */
 #about_section_2 {
     width: 90%;
-    padding: 5%;
+    padding: 4%;
     background-color: #454343;
     color: white;
     -moz-border-radius: 100px;
@@ -476,7 +486,7 @@ li a:hover {
 
 /* Section 3 */
 #about_section_3 {
-    padding: 5%;
+    padding: 4%;
     background-color: #a2d4ab;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
@@ -521,7 +531,7 @@ li a:hover {
 #about_section_4 {
     color: white;
     background-color: #3eaca8;
-    padding-bottom: 4%;
+    padding: 3%;
     -moz-border-radius: 100px;
     -webkit-border-radius: 100px;
     border-radius: 100px;
